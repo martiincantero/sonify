@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Canciones</title>
+  <link rel="stylesheet" href="ccs/styles.css">
+  <link rel="icon" href="img/Sonify.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html"><img src="img/Sonify.png" alt="Logo Sonify" class="logo"></a>
+      <ul class="nav-menu">
+        <li><a href="search.html">Canciones</a></li>
+        <li><a href="estilos.html">Estilos</a></li>
+        <li><a href="about.html">Sobre Nosotros</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="page-layout">
+    <aside class="filter-section">
+      <h2>Filtros</h2>
+      
+      <!-- Grupo -->
+      <section class="filter-group">
+        <h3>Grupo</h3>
+        <label>Nombre: <input type="text" placeholder="Buscar nombre"></label>
+        <label>País: <input type="text" placeholder="Buscar país"></label>
+        <label>Año: <input type="number" placeholder="Ej: 2000"></label>
+      </section>
+      
+      <!-- Disco -->
+      <section class="filter-group">
+        <h3>Disco</h3>
+        <label>Búsqueda: <input type="text" placeholder="Buscar disco"></label>
+        <label>Título: <input type="text" placeholder="Buscar título"></label>
+        <label>Año: <input type="number" placeholder="Ej: 1999"></label>
+        <label>Género: <input type="text" placeholder="Buscar género"></label>
+      </section>
+      
+      <!-- Canción -->
+      <section class="filter-group">
+        <h3>Canción</h3>
+        <label>Feeling: <input type="text" placeholder="Buscar feeling"></label>
+        <label>Duración: <input type="number" placeholder="Minutos"></label>
+        <label>Título: <input type="text" placeholder="Buscar título"></label>
+      </section>
+      
+      <!-- Estilo Musical -->
+      <section class="filter-group">
+        <h3>Estilo Musical</h3>
+        <label>Energy: <input type="text" placeholder="Buscar energy"></label>
+        <label>Nombre: <input type="text" placeholder="Buscar nombre"></label>
+        <label>Descripción: <textarea placeholder="Buscar descripción"></textarea></label>
+      </section>
+    </aside>
+    <section class="song-list">
+      <h2>Canciones Disponibles</h2>
+      <div class="download-section">
+      <a href="data/grupos.rar" download="data/grupos.rar" class="btn-download">
+        Descargar Lista de grupos (XML)
+      </a>
+      </div>
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Golden">
+      <div class="song-details">
+      <h3>Golden <span class="featured">FEATURED</span></h3>
+      <p>NeonNiteClub</p>
+      </div>
+      <div class="song-meta">
+      <span>3:28</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Back Up Friend">
+      <div class="song-details">
+      <h3>Back Up Friend</h3>
+      <p>FromTom</p>
+      </div>
+      <div class="song-meta">
+      <span>2:44</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Compañeros">
+      <div class="song-details">
+      <h3>Compañeros <span class="featured">FEATURED</span></h3>
+      <p>Sundaypanic</p>
+      </div>
+      <div class="song-meta">
+      <span>1:44</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Dreamland">
+      <div class="song-details">
+      <h3>Dreamland</h3>
+      <p>Skybound</p>
+      </div>
+      <div class="song-meta">
+      <span>3:45</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Midnight Ride">
+      <div class="song-details">
+      <h3>Midnight Ride</h3>
+      <p>The Night Owls</p>
+      </div>
+      <div class="song-meta">
+      <span>4:12</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Rhythm of the Heart">
+      <div class="song-details">
+      <h3>Rhythm of the Heart <span class="featured">FEATURED</span></h3>
+      <p>Beats Avenue</p>
+      </div>
+      <div class="song-meta">
+      <span>3:30</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Colors of Life">
+      <div class="song-details">
+      <h3>Colors of Life</h3>
+      <p>Spectrum Crew</p>
+      </div>
+      <div class="song-meta">
+      <span>2:50</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Echoes">
+      <div class="song-details">
+      <h3>Echoes</h3>
+      <p>Vibe Machine</p>
+      </div>
+      <div class="song-meta">
+      <span>4:10</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Ocean Waves">
+      <div class="song-details">
+      <h3>Ocean Waves</h3>
+      <p>Sea Breeze</p>
+      </div>
+      <div class="song-meta">
+      <span>4:05</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Starlight">
+      <div class="song-details">
+      <h3>Starlight</h3>
+      <p>Galactic Tunes</p>
+      </div>
+      <div class="song-meta">
+      <span>3:55</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Morning Dew">
+      <div class="song-details">
+      <h3>Morning Dew</h3>
+      <p>Nature Sounds</p>
+      </div>
+      <div class="song-meta"></div>
+      <span>2:35</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de City Lights">
+      <div class="song-details">
+      <h3>City Lights</h3>
+      <p>Urban Vibes</p>
+      </div>
+      <div class="song-meta">
+      <span>3:40</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Forest Whisper">
+      <div class="song-details">
+      <h3>Forest Whisper</h3>
+      <p>Green Harmony</p>
+      </div>
+      <div class="song-meta">
+      <span>4:00</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Desert Mirage">
+      <div class="song-details">
+      <h3>Desert Mirage</h3>
+      <p>Sand Dunes</p>
+      </div>
+      <div class="song-meta">
+      <span>3:15</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Mountain Echo">
+      <div class="song-details">
+      <h3>Mountain Echo</h3>
+      <p>High Peaks</p>
+      </div>
+      <div class="song-meta">
+      <span>3:50</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Rainy Days">
+      <div class="song-details">
+      <h3>Rainy Days</h3>
+      <p>Cloudy Skies</p>
+      </div>
+      <div class="song-meta">
+      <span>2:55</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Snowfall">
+      <div class="song-details">
+      <h3>Snowfall</h3>
+      <p>Winter Chill</p>
+      </div>
+      <div class="song-meta">
+      <span>3:25</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Thunderstorm">
+      <div class="song-details">
+      <h3>Thunderstorm</h3>
+      <p>Electric Beats</p>
+      </div>
+      <div class="song-meta">
+      <span>4:20</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Sunset Glow">
+      <div class="song-details">
+      <h3>Sunset Glow</h3>
+      <p>Evening Hues</p>
+      </div>
+      <div class="song-meta">
+      <span>3:10</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Autumn Leaves">
+      <div class="song-details">
+      <h3>Autumn Leaves</h3>
+      <p>Fall Symphony</p>
+      </div>
+      <div class="song-meta">
+      <span>3:35</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Spring Blossom">
+      <div class="song-details">
+      <h3>Spring Blossom</h3>
+      <p>Floral Tunes</p>
+      </div>
+      <div class="song-meta">
+      <span>2:45</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Summer Breeze">
+      <div class="song-details">
+      <h3>Summer Breeze</h3>
+      <p>Warm Waves</p>
+      </div>
+      <div class="song-meta">
+      <span>3:30</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Summer Breeze">
+      <div class="song-details">
+      <h3>Nightfall</h3>
+      <p>Dark Nights</p>
+      </div>
+      <div class="song-meta">
+      <span>4:00</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Twilight">
+      <div class="song-details">
+      <h3>Twilight</h3>
+      <p>Dusk Melodies</p>
+      </div>
+      <div class="song-meta">
+      <span>3:45</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Twilight">
+      <div class="song-details">
+      <h3>Dawn</h3>
+      <p>Morning Light</p>
+      </div>
+      <div class="song-meta">
+      <span>3:05</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+    <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Horizon">
+      <div class="song-details">
+      <h3>Horizon</h3>
+      <p>Far Away</p>
+      </div>
+      <div class="song-meta">
+      <span>4:15</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+    </div>
+    </section>
+  </main>
+  <footer>
+    <p>Sonify &copy; 2025. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

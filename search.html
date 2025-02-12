@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Canciones</title>
+  <link rel="stylesheet" href="ccs/styles.css">
+  <link rel="icon" href="img/Sonify.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html"><img src="img/Sonify.png" alt="Logo Sonify" class="logo"></a>
+      <ul class="nav-menu">
+        <li><a href="search.html">Canciones</a></li>
+        <li><a href="estilos.html">Estilos</a></li>
+        <li><a href="about.html">Sobre Nosotros</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="page-layout">
+    <aside class="filter-section">
+      <h2>Filtros</h2>
+      
+      <!-- Grupo -->
+      <section class="filter-group">
+        <h3>Grupo</h3>
+        <label>Nombre: <input type="text" placeholder="Buscar nombre"></label>
+        <label>País: <input type="text" placeholder="Buscar país"></label>
+        <label>Año: <input type="number" placeholder="Ej: 2000"></label>
+      </section>
+      
+      <!-- Disco -->
+      <section class="filter-group">
+        <h3>Disco</h3>
+        <label>Búsqueda: <input type="text" placeholder="Buscar disco"></label>
+        <label>Título: <input type="text" placeholder="Buscar título"></label>
+        <label>Año: <input type="number" placeholder="Ej: 1999"></label>
+        <label>Género: <input type="text" placeholder="Buscar género"></label>
+      </section>
+      
+      <!-- Canción -->
+      <section class="filter-group">
+        <h3>Canción</h3>
+        <label>Feeling: <input type="text" placeholder="Buscar feeling"></label>
+        <label>Duración: <input type="number" placeholder="Minutos"></label>
+        <label>Título: <input type="text" placeholder="Buscar título"></label>
+      </section>
+      
+      <!-- Estilo Musical -->
+      <section class="filter-group">
+        <h3>Estilo Musical</h3>
+        <label>Energy: <input type="text" placeholder="Buscar energy"></label>
+        <label>Nombre: <input type="text" placeholder="Buscar nombre"></label>
+        <label>Descripción: <textarea placeholder="Buscar descripción"></textarea></label>
+      </section>
+      </aside>
+      
+    <section class="song-list">
+      <h2>Canciones Disponibles</h2>
+      <div class="download-section">
+      <a href="data/grupos.rar" download="data/grupos.rar" class="btn-download">
+        Descargar Lista de grupos (XML)
+      </a>
+      </div>
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Death on Two Legs">
+      <div class="song-details">
+      <h3>Death on Two Legs</h3>
+      <p>Queen</p>
+      </div>
+      <div class="song-meta">
+      <span>00:03:43</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Lazing on a Sunday Afternoon">
+      <div class="song-details">
+      <h3>Lazing on a Sunday Afternoon</h3>
+      <p>Queen</p>
+      </div>
+      <div class="song-meta">
+      <span>00:01:08</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Im in Love with My Car">
+      <div class="song-details">
+      <h3>Im in Love with My Car</h3>
+      <p>Queen</p>
+      </div>
+      <div class="song-meta">
+      <span>00:03:05</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Youre My Best Friend">
+      <div class="song-details">
+      <h3>Youre My Best Friend</h3>
+      <p>Queen</p>
+      </div>
+      <div class="song-meta">
+      <span>00:02:52</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de 39">
+      <div class="song-details">
+      <h3>39</h3>
+      <p>Queen</p>
+      </div>
+      <div class="song-meta">
+      <span>00:03:30</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Radio Ga Ga">
+      <div class="song-details">
+      <h3>Radio Ga Ga</h3>
+      <p>Queen</p>
+      </div>
+      <div class="song-meta">
+      <span>00:05:48</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Tear It Up">
+      <div class="song-details">
+      <h3>Tear It Up</h3>
+      <p>Queen</p>
+      </div>
+      <div class="song-meta">
+      <span>00:03:28</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Its a Hard Life">
+      <div class="song-details">
+      <h3>Its a Hard Life</h3>
+      <p>Queen</p>
+      </div>
+      <div class="song-meta">
+      <span>00:04:08</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Its a Hard Life">
+        <div class="song-details">
+        <h3>Man on the Prowl</h3>
+        <p>Queen</p>
+        </div>
+        <div class="song-meta">
+        <span>00:03:28</span>
+        <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+        </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Its a Hard Life">
+        <div class="song-details">
+        <h3>Machines (Or Back to Humans)</h3>
+        <p>Queen</p>
+        </div>
+        <div class="song-meta">
+        <span>00:05:08</span>
+        <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+        </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Its a Hard Life">
+        <div class="song-details">
+        <h3>Smells Like Teen Spirit</h3>
+        <p>Nirvana</p>
+        </div>
+        <div class="song-meta">
+        <span>00:05:01</span>
+        <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+        </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de In Bloom">
+      <div class="song-details">
+      <h3>In Bloom</h3>
+      <p>Nirvana</p>
+      </div>
+      <div class="song-meta">
+      <span>00:04:15</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Its a Hard Life">
+        <div class="song-details">
+        <h3>Come as You Are</h3>
+        <p>Nirvana</p>
+        </div>
+        <div class="song-meta">
+        <span>00:03:39</span>
+        <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+        </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Breed">
+      <div class="song-details">
+      <h3>Breed</h3>
+      <p>Nirvana</p>
+      </div>
+      <div class="song-meta">
+      <span>00:03:31</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Its a Hard Life">
+        <div class="song-details">
+        <h3>Lithium</h3>
+        <p>Nirvana</p>
+        </div>
+        <div class="song-meta">
+        <span>00:04:17</span>
+        <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+        </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Its a Hard Life">
+        <div class="song-details">
+        <h3>Serve the Servants</h3>
+        <p>Nirvana</p>
+        </div>
+        <div class="song-meta">
+        <span>00:03:36</span>
+        <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+        </div>
+
+    <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Its a Hard Life">
+        <div class="song-details">
+        <h3>Scentless Apprentice</h3>
+        <p>Nirvana</p>
+        </div>
+        <div class="song-meta">
+        <span>00:03:48</span>
+        <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+        </div>
+
+    <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Its a Hard Life">
+        <div class="song-details">
+        <h3>Heart-Shaped Box</h3>
+        <p>Nirvana</p>
+        </div>
+        <div class="song-meta">
+        <span>00:04:41</span>
+        <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+        </div>
+
+      <div class="song-item">
+      <img src="img/plantilla_logo_anciones.png" alt="Portada de Pennyroyal Tea">
+      <div class="song-details">
+      <h3>Rape Me</h3>
+      <p>Nirvana</p>
+      </div>
+      <div class="song-meta">
+      <span>00:02:45</span>
+      <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+      </div>
+      </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Its a Hard Life">
+        <div class="song-details">
+        <h3>Frances Farmer Will Have Her Revenge on Seattle</h3>
+        <p>Nirvana</p>
+        </div>
+        <div class="song-meta">
+        <span>00:04:09</span>
+        <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+        </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de One More Time">
+        <div class="song-details">
+          <h3>One More Time</h3>
+          <p>Daft Punk</p>
+        </div>
+        <div class="song-meta">
+          <span>00:05:20</span>
+          <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+      </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Its a Hard Life">
+        <div class="song-details">
+        <h3>Aerodynamic</h3>
+        <p>Daft Punk</p>
+        </div>
+        <div class="song-meta">
+        <span>00:03:27</span>
+        <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+        </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Digital Love">
+        <div class="song-details">
+          <h3>Digital Love</h3>
+          <p>Daft Punk</p>
+        </div>
+        <div class="song-meta">
+          <span>00:04:58</span>
+          <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+      </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Harder, Better, Faster, Stronger">
+        <div class="song-details">
+          <h3>Harder, Better, Faster, Stronger</h3>
+          <p>Daft Punk</p>
+        </div>
+        <div class="song-meta">
+          <span>00:03:44</span>
+          <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+      </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Crescendolls">
+        <div class="song-details">
+          <h3>Crescendolls</h3>
+          <p>Daft Punk</p>
+        </div>
+        <div class="song-meta">
+          <span>00:03:31</span>
+          <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+      </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Give Life Back to Music">
+        <div class="song-details">
+          <h3>Give Life Back to Music</h3>
+          <p>Daft Punk</p>
+        </div>
+        <div class="song-meta">
+          <span>00:04:35</span>
+          <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+      </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de The Game of Love">
+        <div class="song-details">
+          <h3>The Game of Love</h3>
+          <p>Daft Punk</p>
+        </div>
+        <div class="song-meta">
+          <span>00:05:22</span>
+          <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+      </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Giorgio by Moroder">
+        <div class="song-details">
+          <h3>Giorgio by Moroder</h3>
+          <p>Daft Punk</p>
+        </div>
+        <div class="song-meta">
+          <span>00:09:04</span>
+          <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+      </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Within">
+        <div class="song-details">
+          <h3>Within</h3>
+          <p>Daft Punk</p>
+        </div>
+        <div class="song-meta">
+          <span>00:03:28</span>
+          <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+      </div>
+
+      <div class="song-item">
+        <img src="img/plantilla_logo_anciones.png" alt="Portada de Instant Crush">
+        <div class="song-details">
+          <h3>Instant Crush</h3>
+          <p>Daft Punk</p>
+        </div>
+        <div class="song-meta">
+          <span>00:05:37</span>
+          <button class="btn-action" onclick="location.href='canciones.html'">Comprar</button>
+        </div>
+      </div>
+    </section>
+         
+  </main>
+  <footer>
+    <p>Sonify &copy; 2025. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
